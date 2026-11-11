@@ -94,4 +94,4 @@ let operation={
 fetch(URL,operation)
 .then((res)=>{
     console.log(res.status,res.statusText);
-}).catch(res=>console.log(res));
+}).catch(res=>console.log(res)); 
