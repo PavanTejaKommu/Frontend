@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Teja",
+      "age": 23
+    },
+    {
+      "id": "3",
+      "name": "Pavn",
+      "age": 22
+    },
+    {
+      "id": "4",
+      "name": "Pavan",
+      "age": 30
+    },
+    {
+      "id": "5",
+      "name": "Ram",
+      "age": 1000
+    },
+    {
+      "id": "6",
+      "name": "Tony",
+      "age": 45
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

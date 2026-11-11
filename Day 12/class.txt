@@ -1,0 +1,41 @@
+child properties 
+===================================
+flex-grow: 1;
+flex-shrink: ;  ==> size decrease  
+flex-direction :  row ; ==> 
+flex-basics : 10px;  dont change the size while moving anything
+flex : grow , shrink , basis , (shirtened property)
+property----------
+order   : ;
+align-sels ----> start , center, end 
+
+
+
+Transforms==================>
+trnasforms --- 
+rotate(45deg) , 
+scale , ==> (room) 
+ skew (45deg),  ==> 3D objects 
+  tranlate x-axis , ==> move away from axis
+   translate y -asis 
+
+shorten propert (translate)
+
+
+
+
+pseudo  selector==================>
+selector 
+
+
+transitions 
+transuationduaration 2
+trasition-duration : 2;
+transition-delay: ;
+transition -timing function: ;
+
+linear 
+ease , ease-in . ease-in-out , ease-out , ease-in-out 
+
+
+

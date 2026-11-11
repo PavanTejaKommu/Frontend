@@ -1,0 +1,27 @@
+iframes 
+
+paired tag 
+<iframe src="" frameborder> </iframe>
+frameborder = attribute ;
+hyperlinks to routing the websites;
+internal = same page
+external = same tab 
+
+
+attributes = iframes
+src , fremeborder , height , width , name 
+
+semantic elements or  semantic html
+semantic elements = which is meaning full tags  
+
+eg = all tags 
+
+
+non-semantic tags = which is not  meaning full tags 
+eg = div,  <span></span>
+
+inline elaments  = side by side 
+eg= formating tags
+
+block level elaments = line by line 
+eg=  heading tags all 

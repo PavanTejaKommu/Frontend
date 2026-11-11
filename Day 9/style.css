@@ -1,0 +1,98 @@
+/* css box model  
+
+background position 
+ background image 
+ background attachment 
+ background repeat
+ background color 
+ background shadow 
+ background size 
+
+*/
+
+
+/*
+text allign 
+font size
+font family
+font weight 
+font style 
+ font decaration 
+ font transformation 
+ font shadow 
+ margin
+*/
+
+
+
+/*
+units 
+containers 
+vh => virtual height or view port 
+vwv=> virtual width or view port width
+
+
+
+
+
+fonts =========
+em => element 
+rem => root element
+
+1em = 16px
++
+*/
+
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;   /* padding size*/
+    background-image: url();
+    background: repeat no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 50px;
+box-shadow: 5px 5px blue;
+
+
+}
+
+h1{
+
+font-size: 20px;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+font-weight: 500;
+
+text-align: center;
+/* text-align: start; */
+/* text-align: end; */
+
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize; /* First one capital Abcd*/
+text-shadow: 1px 2px  5px red ;
+
+
+
+
+
+}
+
+
+
+/* properties => 
+back groubnd properties 
+
+backgound-image */

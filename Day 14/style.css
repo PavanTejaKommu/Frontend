@@ -1,0 +1,53 @@
+body{
+    height: 700px;
+    /* width: 700px; */
+
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+
+.container{
+
+    height: 200px;
+    width: 200px;
+background-color: green;
+animation: idea 3s ease infinite;
+
+  
+}
+
+
+@keyframes idea {
+
+0%{
+    transform: translateX(0px);
+background-color: aqua;
+animation-duration: 2s ;
+transform: rotate(180deg);
+
+
+
+}
+25%{
+    transform: translateX(300px);
+    background-color: blueviolet;
+    animation-duration: 2s;
+    /* transform: rotate(360deg); */
+}50%{
+    transform: translate(300px,300px);
+    background-color: yellow;
+    animation-duration: 2s;
+    /* transform: rotate(180deg); */
+}75%{
+    transform: translate(0px , 300px);
+    background-color: pink;
+    animation-duration: 2s;
+    /* transform: rotate(180deg); */
+
+
+}
+    
+    
+}

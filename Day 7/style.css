@@ -1,0 +1,34 @@
+
+*{
+    background-color: yellow;
+color: red;
+}
+
+h1{
+    background-color: aqua;color: red;
+}
+
+p{
+    background-color: pink; color: black;
+}
+
+pre{
+    background-color: orange; color: bisque;
+}
+
+.first-heading{
+    background-color: black; color: blue;
+}
+
+.second-heading{
+    background-color: aliceblue; color: aqua;
+}
+
+#first-para{
+    color: blueviolet;
+}
+
+/* grouping selectors  */
+p , td{
+    color: green;
+}

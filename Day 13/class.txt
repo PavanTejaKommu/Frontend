@@ -1,0 +1,39 @@
+combinator selector
+ 4 types 
+ descedent selector (space " ")
+ -------
+ syn: 
+ selector selector {
+    property : value;
+ }
+
+
+===============================================
+
+ adjacent sibling selector(+)
+ -------------
+syn: outside container first elemnt 
+selector + selector{
+    property : value;
+}
+====================================
+ child selector(>)
+ --
+ syn: 
+selector > selector {
+
+    only child 
+
+    property : value;
+
+}
+
+==================================================
+general sibling selector (~)
+
+syn:
+selector ~ selector{
+    property: value;
+}
+
+

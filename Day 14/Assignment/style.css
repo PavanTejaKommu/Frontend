@@ -1,0 +1,131 @@
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: inline-block; */
+
+}
+
+.container{
+    background-color: black;
+    height: 200px;
+    width: 15px;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+
+.child-1{
+    animation: identifier3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 0s; */
+    animation-iteration-count: infinite;
+    background-color: black;
+}
+
+
+.child-2{
+     animation: identifier2;
+     animation-duration: 600ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+    background-color: black;
+}
+.child-3{
+     animation: identifier3;
+     animation-duration: 400ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-4{
+    animation: identifier2;
+     animation-duration: 700ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-5{
+    animation: identifier2;
+     animation-duration: 300ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-6{
+     animation: identifier3;
+     animation-duration: 600ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-7{
+    animation: identifier2;
+     animation-duration: 400ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-8{
+     animation: identifier2;
+     animation-duration: 1000ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-9{
+     animation: identifier3;
+     animation-duration: 300ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-10{
+    animation: identifier2;
+     animation-duration: 600ms;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+.child-11{
+     animation: identifier3;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ background-color: black;}
+
+
+
+ @keyframes identifier {
+
+
+
+        from{
+scale: calc(2);
+        }
+        to{
+scale: calc(0);
+        }
+    
+ }
+
+
+ @keyframes identifier2 {
+
+
+
+        from{
+scale: calc(2);
+        }
+        to{
+scale: calc(1);
+        }
+    
+ }
+
+
+  @keyframes identifier3 {
+
+
+
+        from{
+scale: calc(2);
+        }
+        to{
+scale: calc(1);
+        }
+    
+ }
